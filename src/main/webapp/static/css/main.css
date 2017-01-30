@@ -1,0 +1,133 @@
+body {
+	font-family: Helvetica, Sans-Serif;
+	color: #666;
+	font-size: 16px;	
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ec8e08;
+}
+
+a {
+	color: #DD0C46;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#f39c12;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+li {
+	list-style-type: none;
+}
+
+/***************Header *************/
+header {
+	height: 120px;
+	background-color: #2c3e50;
+}
+
+.logo {
+	margin-top:15px;
+}
+
+nav {
+	margin-top:40px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	transition: align-items .2s;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	transition: margin .2s;
+}
+
+li:not(:last-child) {
+    margin-right: 15px;
+}
+li:last-child {
+    background: #3498db;
+    border-radius: 5px;
+}
+
+li a {
+	font-size: 16px;
+	display: block;
+	padding: 5px 5px;
+	color:white;
+	text-transform: uppercase;
+}
+
+
+/****************  Main  ****************/
+.main {
+	background-color: #34495e;
+	height: 700px;
+}
+
+.topic {
+	margin-bottom: 40px;
+}
+.topic h2 {
+	text-align: center;
+	color:#bfc5ca;
+}
+
+.topic h4 {
+	text-align: center;
+	color:#bfc5ca;
+}
+.reg-form {
+	box-sizing: border-box;
+	background-color: #465b70;
+	width: 300px;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+.form-head {
+	margin: 30px 0;
+}
+
+.reg-form h4 {
+	text-align: center;
+	color: white;
+}
+
+.reg-form h5 {
+	text-align: center;
+	color: #9fa9b2;
+}
+
+.reg-form input {
+	width: 250px;
+}
+
+.form-control{
+	display:inline;
+}
+/*********** footer *************/
+footer {
+	position: relative;
+	text-align: left;
+	height: 110px;
+	background-color: #2c3e50;
+}
+
+footer h4 {
+	position: absolute;
+	top: 40%;
+	color:#bfc5ca;
+}
+
